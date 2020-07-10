@@ -36,3 +36,6 @@ Não estamos preocupados em uma entrega perfeita, mas no aprendizado de cada alu
 	- tempo de atrazo de no maximo 10 min. nas reuniões.
 	- utilizar o backlog do git
 	- encontros semanais para revisão do projeto(terça as 15h)
+
+
+djasiodjasiodsjiodsajdiosa
