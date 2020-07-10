@@ -38,4 +38,4 @@ Não estamos preocupados em uma entrega perfeita, mas no aprendizado de cada alu
 	- encontros semanais para revisão do projeto(terça as 15h)
 
 
-djasiodjasiodsjiodsajdiosa
+djasiodjasiodsjio
