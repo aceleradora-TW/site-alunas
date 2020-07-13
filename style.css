@@ -1,0 +1,14 @@
+.title {
+    text-align: center;
+    font-family:verdana;
+    color:#616161;
+    padding: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 70px 0;
+  }
