@@ -48,3 +48,55 @@ body {
     margin-right: auto;
 }
 /*LIST-ALUNAS*/
+
+/*RODAPÉ-ALUNAS*/
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.rodape_final{
+  background-color: #FF8A5B;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;   
+  padding: 40px 0; 
+}
+.rodape_final article p{
+  text-align: center;
+}  
+.rodape_final article .redes_sociais{
+  text-align: center;
+}
+.rodape_final article a i::before{
+  font-size: 30px;
+  margin: 10px;     
+}
+.empresas-logo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.empresas-logo a{
+  width: max-content;
+  margin: auto;
+}
+.empresas-logo a img {
+  width: 220px;
+  height: auto;
+}
+.contatos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contatos i{
+  margin-bottom: 10px;     
+}
+.contatos i::before{
+  margin-right: 10px;      
+}
+.img_rod{
+  width: inherit;
+}
+/*RODAPÉ-ALUNAS*/
