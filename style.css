@@ -12,6 +12,59 @@
     width: 50%;
     padding: 70px 0;
   }
+
+.body-menu {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #73C2BE;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #04030F;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+
+.sidebar a:hover:not(.active) {
+  background-color: rgb(218, 218, 218);
+  color: rgb(131, 131, 131);
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
   /*LIST-ALUNAS*/
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif; 
