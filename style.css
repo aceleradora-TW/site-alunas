@@ -80,6 +80,7 @@ body {
 .empresas-logo a{
   width: max-content;
   margin: auto;
+  margin-bottom: 10px;
 }
 .empresas-logo a img {
   width: 220px;
