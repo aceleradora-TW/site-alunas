@@ -4,6 +4,7 @@ O site pretende divulgar a aceleradora e seus projetos com a turma 17, bem como 
 Escopo de produto.
 
 ### O que vamos apresentar
+Olaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ##### Página de cada aluna(o):
 	- foto
 	- pequeno texto
