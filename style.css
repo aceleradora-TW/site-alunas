@@ -100,13 +100,13 @@ body {
   height: 130px;
 	text-align: center;
 }
-#student_list{
+.student_list{
   	height:50%; 
     width:100%;
     align-self: center;
     text-align: center;
 }
-.font_a{
+.font-a{
     font-size: 16px;
     
 }
