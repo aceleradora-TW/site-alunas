@@ -2,9 +2,18 @@
     text-align: center;
     font-family:verdana;
     color:#616161;
+    font-size: xx-large;
     padding: 18px;
 }
 
+.text{
+    color: #04030f;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    padding-right: 150px;
+    padding-left: 150px;
+    text-indent: 50px;
+}
 .center {
     display: block;
     margin-left: auto;
@@ -17,6 +26,7 @@
   margin: 0;
   font-family: "Lato", sans-serif;
   font-size: 16px;
+  position: relative;
 }
 
 .sidebar {
@@ -27,25 +37,27 @@
   position: fixed;
   height: 100%;
   overflow: auto;
+  position: absolute;
+
 }
 
 .sidebar a {
   display: block;
-  color: #04030F;
+  color:  #FFFDF5;
   padding: 16px;
   text-decoration: none;
 }
  
 
 .sidebar a:hover:not(.active) {
-  background-color: rgb(218, 218, 218);
-  color: rgb(131, 131, 131);
+  background-color:#FF8A5B;
+  color:#bd3e0b;
 }
 
 div.content {
   margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
+  padding: 1px 5px;
+  height: 100%;
 }
 
 @media screen and (max-width: 700px) {
@@ -65,35 +77,29 @@ div.content {
   }
 }
 
-  /*LIST-ALUNAS*/
-body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif; 
-	color: #011133;
-	width: 100%;
-    height: 100%;
-}
-
 .margin{
 	padding-bottom: 20px;
-    padding-top: 20px;
-    font-size: xx-large;
+  padding-top: 20px;
+
 }
 .font_p{
-	font-size: 15px;
+  font-size: 15px;
+  size: 100%;
+  height: 60px;
 }
 .font_h2{
 	font-size: 18px;
 }
-.tamanho_p{
+.size_p{
 	width: 100%;
-    height:25%;
+  height: 130px;
 	text-align: center;
 }
-#lista_alunos{
-	height:50%; 
-    width:90%;
-    margin-left: auto;
-    margin-right: auto;
+.student_list{
+  	height:50%; 
+    width:100%;
+    align-self: center;
+    text-align: center;
 }
 
 .font_a{
@@ -107,22 +113,23 @@ body {
   margin: 0px;
   box-sizing: border-box;
 }
-.rodape_final{
+.rodape-final{
   background-color: #FF8A5B;
   color: #fff;
   display: flex;
   justify-content: space-around;   
   padding: 40px 0; 
 }
-.rodape_final article p{
+.rodape-final section p{
   text-align: center;
 }  
-.rodape_final article .redes_sociais{
-  text-align: center;
+.rodape-final section .redes-sociais{
+  width: max-content;
+  margin: auto;
 }
-.rodape_final article a i::before{
+.rodape-final section a i::before{
   font-size: 30px;
-  margin: 10px;     
+  margin: 10px;    
 }
 .empresas-logo {
   display: flex;
@@ -141,15 +148,16 @@ body {
 .contatos {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  width: max-content;
+  margin: auto;
 }
 .contatos i{
   margin-bottom: 10px;     
 }
 .contatos i::before{
-  margin-right: 10px;      
+  margin-right: 10px;
 }
-.img_rod{
+.img-rodape{
   width: inherit;
 }
 /*RODAPÉ-ALUNAS*/
