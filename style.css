@@ -36,6 +36,7 @@
   position: fixed;
   height: 100%;
   overflow: auto;
+  background-image: linear-gradient(95deg,#207bba 33%, #4fa6e3);
 }
 
 .sidebar a {
@@ -103,7 +104,43 @@ div.content {
 .col-lg-4 {
   padding: 15px;
 }
-.photo-size {
+
+.pt-cima{
+  display: table; 
+
+}
+
+.foto{
+  display: table-cell;
+  float: left;
+  width: 170px;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+.foto img{
+  width: auto;
+  height: 100%;
+}
+.adendos{
+  display: table-cell;
+  float: left;
+  width: 260px;
+  margin-left: 15px;
+}
+
+.modal-texto{
+  text-indent: 50px;
+}
+
+.modal-footer a i::before{
+  font-size: 40px;
+  margin-left:7px;
+  
+}
+
+/*LIST-ALUNAS*/
+.photo-size{
   height: 420px;
   width: 100%;
   margin-left: 0px;
