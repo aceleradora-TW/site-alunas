@@ -116,8 +116,13 @@ div.content {
   float: left;
   width: 170px;
   margin-bottom: 10px;
+  height: 200px;
 }
 
+.foto img{
+  width: auto;
+  height: 100%;
+}
 .adendos{
   display: table-cell;
   float: left;
@@ -127,6 +132,12 @@ div.content {
 
 .modal-texto{
   text-indent: 50px;
+}
+
+.modal-footer a i::before{
+  font-size: 40px;
+  margin-left:7px;
+  
 }
 
 /*LIST-ALUNAS*/
