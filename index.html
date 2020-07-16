@@ -10,20 +10,22 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 	<title>Home Page</title>
 </head>
-<header>
+<header>	
 </header>
 
 <body>
 	<div class="body-menu">
 		<div class="sidebar">
+			<img src="images/logo.jpeg" width="100%">
 			<a href="#aceleradora">Aceleradora Ágil</a>
-			<a href="#alunos">Alunos</a>
-			<a href="#mentoria">Mentoria</a>
-			<a href="#participe">Participe</a>
+			<a href="#student-list">Alunos</a>
+			<a href="#mentoring">Mentoria</a>
+			<a href="#depositions">Depoimentos</a>
+			<a href="#join-us">Participe</a>
 		</div>
 		<div class="content">
 		
-			<section>
+			<section id="aceleradora">
 				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 					  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -32,7 +34,7 @@
 					</ol>
 					<div class="carousel-inner">
 					  <div class="carousel-item active">
-						<img class="photo-size" src="images/carrossel-turma-17.jpeg"  class="d-block w-100" alt="..." >
+						<img class="photo-size" src="images/turma.jpeg"  class="d-block w-100" alt="..." >
 						<div class="carousel-caption d-none d-md-block">
 						</div>
 					  </div>
@@ -72,7 +74,7 @@
 		</div>
 		
 	<!--lista alunas-->
-	<section class="student_list">
+	<section class="student_list" id="student-list">
 		<div class="content">
 
 		<div class="container-fluid text-center margin parceiros">
@@ -511,7 +513,7 @@
 
 		<div class="content">
 			<div>
-				<h1 class="title">Mentoria</h1>
+				<h1 class="title" id="mentoring">Mentoria</h1>
 				<p class="text">Existem dois tipos de mentoria, Mentoria Operacional e Mentoria Técnica. Os mentores
 					operacionais são um aluno de mestrado, um aluno de doutorado
 					e um ex-aluno da própria Aceleradora com propósito de auxiliar os alunos em quaisquer dÚvidas que tiverem.

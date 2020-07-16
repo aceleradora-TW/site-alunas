@@ -113,3 +113,9 @@ div.content {
   margin-left: 0px;
   margin-right: 0px;
 }
+.cabecalho{
+  background-color:#FFFDF5;
+  height: 50px;
+  width: 100%;
+  text-align: .center;
+}
