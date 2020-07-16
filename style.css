@@ -99,13 +99,10 @@ div.content {
     text-align: center;
 }
 .font-a{
-    font-size: 16px;
-    
+  font-size: 16px;    
 }
-
 .col-lg-4{
   padding: 15px;
-
 }
 .photo-size{
   height: 420px;
@@ -117,5 +114,62 @@ div.content {
   background-color:#FFFDF5;
   height: 50px;
   width: 100%;
-  text-align: .center;
+  text-align: center;
 }
+/*RODAPÉ-ALUNAS*/
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.footer-final{
+  background-color: #FF8A5B;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;   
+  padding: 40px 0 40px 200px;
+  margin-top: 60px;
+}
+.footer-final section p{
+  text-align: center;
+} 
+.footer-final section .social-midias{
+  text-align: center;
+}
+.footer-final section a i::before{
+  font-size: 30px;
+  margin: 10px;    
+}
+.company-logo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.company-logo a{
+  width: max-content;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.company-logo a img {
+  width: 180px;
+  height: auto;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin: auto;
+}
+.footer-final section .contact p{
+  text-align: left;
+}
+.contact i{
+  margin-bottom: 10px;     
+}
+.contact i::before{
+  margin-right: 10px;      
+}
+.img-footer{
+  width: inherit;
+}
+/*RODAPÉ-ALUNAS*/
