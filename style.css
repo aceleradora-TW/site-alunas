@@ -116,4 +116,25 @@ body {
 
 }
 
+.ptCima{
+  display: table; 
+
+}
+
+.foto{
+  display: table-cell;
+  float: left;
+  width: 170px;
+  margin-bottom: 10px;
+}
+
+.adendos{
+  display: table-cell;
+  float: left;
+  width: 260px;
+  margin-left: 15px;
+}
+
+
+
 /*LIST-ALUNAS*/
